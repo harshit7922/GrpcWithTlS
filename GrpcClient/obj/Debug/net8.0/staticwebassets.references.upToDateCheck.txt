@@ -6,3 +6,7 @@ E:\GrpcSolution\GrpcServer\obj\Debug\net8.0\staticwebassets.build.json
 E:\GrpcSolution\GrpcServer\obj\Debug\net8.0\staticwebassets.build.json
 E:\GrpcSolution\GrpcServer\obj\Debug\net8.0\staticwebassets.build.json
 E:\GrpcSolution\GrpcServer\obj\Debug\net8.0\staticwebassets.build.json
+E:\GrpcSolution\GrpcServer\obj\Debug\net8.0\staticwebassets.build.json
+E:\GrpcSolution\GrpcServer\obj\Debug\net8.0\staticwebassets.build.json
+E:\GrpcSolution\GrpcServer\obj\Debug\net8.0\staticwebassets.build.json
+E:\GrpcSolution\GrpcServer\obj\Debug\net8.0\staticwebassets.build.json

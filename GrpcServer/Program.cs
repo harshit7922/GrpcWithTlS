@@ -11,9 +11,11 @@ builder.WebHost.ConfigureKestrel(serverOptions =>
     // Configure Kestrel to use HTTPS with a self-signed certificate.
     serverOptions.ConfigureHttpsDefaults(httpsOptions =>
     {
-        //httpsOptions.ClientCertificateMode = ClientCertificateMode.AllowCertificate;
+        httpsOptions.ClientCertificateMode = ClientCertificateMode.AllowCertificate;
         httpsOptions.SslProtocols = SslProtocols.Tls12 | SslProtocols.Tls13;
         //httpsOptions.ServerCertificate = new X509Certificate2("path/to/your/certificate.pfx", "your_certificate_password");
+        httpsOptions.ServerCertificate = new X509Certificate2(@"../../certs/newlocalhostcert.pfx", "localhost@123");
+
     });
 });
 
