@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "serverstreaming";
+
+service EmployeeService {
+  rpc StreamAllEmployees (Empty) returns (stream EmployeeReply); // Server Streaming method
+}
+
+message Empty {} // Used when no input is needed
+
+message EmployeeReply {
+  int32 id = 1;
+  string name = 2;
+}

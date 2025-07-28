@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "bidirectional";
+
+service ChatService{
+	rpc Chat(stream chatMessage) returns(stream chatMessage); // Bidirectional Streaming method
+}
+
+message chatMessage{
+	int32 id = 1; // Field with ID = 1
+	string name = 2; // Field with ID = 2
+	string message = 3; // Field with ID = 3
+}

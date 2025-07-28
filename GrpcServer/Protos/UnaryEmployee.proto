@@ -1,0 +1,16 @@
+syntax = "proto3"; // Specifies the proto syntax version to use
+
+option csharp_namespace = "unary"; // Package namespace to prevent naming collisions
+
+service EmployeeService { // Defines the RPC service
+  rpc GetEmployee (EmployeeRequest) returns (EmployeeReply); // Unary method
+}
+
+message EmployeeRequest { // Request message type
+  int32 id = 1; // Field with ID = 1
+}
+
+message EmployeeReply { // Response message type
+  int32 id = 1;
+  string name = 2;
+}

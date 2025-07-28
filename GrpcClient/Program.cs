@@ -1,3 +1,4 @@
+using combined;
 using Grpc.Core;
 using GrpcServer;
 using GrpcServer.Services;
@@ -16,8 +17,8 @@ var builder = WebApplication.CreateBuilder(args);
 //var reply = client.SayHello(new HelloRequest { Name = "World" });
 //Console.WriteLine("Greeting: " + reply.Message);
 // Add services to the container.
-var pfxPath = @"../../certs/newlocalhostcert.pfx";
-var pfxPassword = "localhost@123"; // Replace with your actual password
+var pfxPath = @"../../certs/localhostnew.pfx";//@"../../certs/newlocalhostcert.pfx";
+var pfxPassword = "password123";//"localhost@123"; // Replace with your actual password
 
 builder.Services.AddGrpcClient<Greeter.GreeterClient>(o =>
 {
@@ -36,6 +37,25 @@ builder.Services.AddGrpcClient<Greeter.GreeterClient>(o =>
     };
     return handler;
 });
+
+// Register FullEmployeeService client
+builder.Services.AddGrpcClient<FullEmployeeService.FullEmployeeServiceClient>(o =>
+{
+    o.Address = new Uri("https://localhost:7163");
+}).ConfigurePrimaryHttpMessageHandler(() =>
+{
+    var handler = new HttpClientHandler();
+    var clientCert = new X509Certificate2(pfxPath, pfxPassword);
+    handler.ServerCertificateCustomValidationCallback = (httpRequestMessage, cert, chain, errors) =>
+    {
+        return cert != null && cert.Thumbprint == clientCert.Thumbprint;
+    };
+    return handler;
+});
+
+
+
+
 //.ConfigurePrimaryHttpMessageHandler(() =>
 //{
 //    var handler = new HttpClientHandler();

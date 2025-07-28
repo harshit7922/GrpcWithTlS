@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "clientstreaming";
+
+service EmployeeService{
+	rpc AddEmployees(stream EmployeeRequest) returns (EmployeeReply); // Client Streaming method
+}
+
+message EmployeeRequest {
+	int32 id = 1; // Field with ID = 1
+	string name = 2 ; // Field with ID = 2
+}
+
+message EmployeeReply{
+	int32 total = 1; // Total number of employees added
+}

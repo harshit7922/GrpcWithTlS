@@ -22,8 +22,50 @@
   },
   {
     "ContainingType": "GrpcClient.Controllers.WeatherForecastController",
+    "Method": "Chat",
+    "RelativePath": "WeatherForecast/chat",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GrpcClient.Controllers.WeatherForecastController",
+    "Method": "GetEmployee",
+    "RelativePath": "WeatherForecast/get-employee/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GrpcClient.Controllers.WeatherForecastController",
     "Method": "TestGrpc",
     "RelativePath": "WeatherForecast/test-grpc",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GrpcClient.Controllers.WeatherForecastController",
+    "Method": "TestGrpcCombinedGetAll",
+    "RelativePath": "WeatherForecast/test-grpc-combined-getall",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

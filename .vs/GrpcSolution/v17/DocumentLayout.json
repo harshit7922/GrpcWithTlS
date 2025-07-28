@@ -1,0 +1,287 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\GrpcWithTlS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|e:\\grpcwithtls\\grpcserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|solutionrelative:grpcserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5ED5307-BFC1-4E3C-A1AD-6F131C6A761F}|GrpcClient\\GrpcClient.csproj|e:\\grpcwithtls\\grpcclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5ED5307-BFC1-4E3C-A1AD-6F131C6A761F}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|e:\\grpcwithtls\\grpcserver\\services\\fullemployeeserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|solutionrelative:grpcserver\\services\\fullemployeeserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5ED5307-BFC1-4E3C-A1AD-6F131C6A761F}|GrpcClient\\GrpcClient.csproj|e:\\grpcwithtls\\grpcclient\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5ED5307-BFC1-4E3C-A1AD-6F131C6A761F}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|e:\\grpcwithtls\\grpcserver\\protos\\combined.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|solutionrelative:grpcserver\\protos\\combined.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|e:\\grpcwithtls\\grpcserver\\services\\greeterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|solutionrelative:grpcserver\\services\\greeterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|e:\\grpcwithtls\\grpcserver\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|solutionrelative:grpcserver\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5ED5307-BFC1-4E3C-A1AD-6F131C6A761F}|GrpcClient\\GrpcClient.csproj|e:\\grpcwithtls\\grpcclient\\grpcclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D5ED5307-BFC1-4E3C-A1AD-6F131C6A761F}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\grpcclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|e:\\grpcwithtls\\grpcserver\\grpcmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|solutionrelative:grpcserver\\grpcmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|e:\\grpcwithtls\\grpcserver\\model\\employeesummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|solutionrelative:grpcserver\\model\\employeesummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|e:\\grpcwithtls\\grpcserver\\repository\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|solutionrelative:grpcserver\\repository\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|e:\\grpcwithtls\\grpcserver\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|solutionrelative:grpcserver\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|e:\\grpcwithtls\\grpcserver\\protos\\bidirectionemployee.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|solutionrelative:grpcserver\\protos\\bidirectionemployee.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|e:\\grpcwithtls\\grpcserver\\protos\\clientstreamemployee.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|solutionrelative:grpcserver\\protos\\clientstreamemployee.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|e:\\grpcwithtls\\grpcserver\\protos\\serverstreamemployee.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|solutionrelative:grpcserver\\protos\\serverstreamemployee.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|e:\\grpcwithtls\\grpcserver\\protos\\unaryemployee.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{08DAA630-51FE-4C7E-A3A7-18564F91BDC2}|GrpcServer\\GrpcServer.csproj|solutionrelative:grpcserver\\protos\\unaryemployee.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FullEmployeeServiceImpl.cs",
+              "DocumentMoniker": "E:\\GrpcWithTlS\\GrpcServer\\Services\\FullEmployeeServiceImpl.cs",
+              "RelativeDocumentMoniker": "GrpcServer\\Services\\FullEmployeeServiceImpl.cs",
+              "ToolTip": "E:\\GrpcWithTlS\\GrpcServer\\Services\\FullEmployeeServiceImpl.cs",
+              "RelativeToolTip": "GrpcServer\\Services\\FullEmployeeServiceImpl.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAWwEgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T15:11:25.122Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\GrpcWithTlS\\GrpcClient\\Program.cs",
+              "RelativeDocumentMoniker": "GrpcClient\\Program.cs",
+              "ToolTip": "E:\\GrpcWithTlS\\GrpcClient\\Program.cs",
+              "RelativeToolTip": "GrpcClient\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T20:37:44.783Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\GrpcWithTlS\\GrpcServer\\Program.cs",
+              "RelativeDocumentMoniker": "GrpcServer\\Program.cs",
+              "ToolTip": "E:\\GrpcWithTlS\\GrpcServer\\Program.cs",
+              "RelativeToolTip": "GrpcServer\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:06:12.019Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GrpcClient.csproj",
+              "DocumentMoniker": "E:\\GrpcWithTlS\\GrpcClient\\GrpcClient.csproj",
+              "RelativeDocumentMoniker": "GrpcClient\\GrpcClient.csproj",
+              "ToolTip": "E:\\GrpcWithTlS\\GrpcClient\\GrpcClient.csproj",
+              "RelativeToolTip": "GrpcClient\\GrpcClient.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-27T17:39:43.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "E:\\GrpcWithTlS\\GrpcServer\\Repository\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "GrpcServer\\Repository\\EmployeeRepository.cs",
+              "ToolTip": "E:\\GrpcWithTlS\\GrpcServer\\Repository\\EmployeeRepository.cs",
+              "RelativeToolTip": "GrpcServer\\Repository\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T16:06:11.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "E:\\GrpcWithTlS\\GrpcServer\\Repository\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "GrpcServer\\Repository\\IEmployeeRepository.cs",
+              "ToolTip": "E:\\GrpcWithTlS\\GrpcServer\\Repository\\IEmployeeRepository.cs",
+              "RelativeToolTip": "GrpcServer\\Repository\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T16:02:30.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "combined.proto",
+              "DocumentMoniker": "E:\\GrpcWithTlS\\GrpcServer\\Protos\\combined.proto",
+              "RelativeDocumentMoniker": "GrpcServer\\Protos\\combined.proto",
+              "ToolTip": "E:\\GrpcWithTlS\\GrpcServer\\Protos\\combined.proto",
+              "RelativeToolTip": "GrpcServer\\Protos\\combined.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-07-27T14:35:12.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\GrpcWithTlS\\GrpcClient\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "GrpcClient\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\GrpcWithTlS\\GrpcClient\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "GrpcClient\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAYwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T17:46:35.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GreeterService.cs",
+              "DocumentMoniker": "E:\\GrpcWithTlS\\GrpcServer\\Services\\GreeterService.cs",
+              "RelativeDocumentMoniker": "GrpcServer\\Services\\GreeterService.cs",
+              "ToolTip": "E:\\GrpcWithTlS\\GrpcServer\\Services\\GreeterService.cs",
+              "RelativeToolTip": "GrpcServer\\Services\\GreeterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T18:24:11.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GrpcMappingProfile.cs",
+              "DocumentMoniker": "E:\\GrpcWithTlS\\GrpcServer\\GrpcMappingProfile.cs",
+              "RelativeDocumentMoniker": "GrpcServer\\GrpcMappingProfile.cs",
+              "ToolTip": "E:\\GrpcWithTlS\\GrpcServer\\GrpcMappingProfile.cs",
+              "RelativeToolTip": "GrpcServer\\GrpcMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T15:29:32.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeSummary.cs",
+              "DocumentMoniker": "E:\\GrpcWithTlS\\GrpcServer\\Model\\EmployeeSummary.cs",
+              "RelativeDocumentMoniker": "GrpcServer\\Model\\EmployeeSummary.cs",
+              "ToolTip": "E:\\GrpcWithTlS\\GrpcServer\\Model\\EmployeeSummary.cs",
+              "RelativeToolTip": "GrpcServer\\Model\\EmployeeSummary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T15:27:50.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\GrpcWithTlS\\GrpcServer\\Model\\Employee.cs",
+              "RelativeDocumentMoniker": "GrpcServer\\Model\\Employee.cs",
+              "ToolTip": "E:\\GrpcWithTlS\\GrpcServer\\Model\\Employee.cs",
+              "RelativeToolTip": "GrpcServer\\Model\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T15:27:11.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BidirectionEmployee.proto",
+              "DocumentMoniker": "E:\\GrpcWithTlS\\GrpcServer\\Protos\\BidirectionEmployee.proto",
+              "RelativeDocumentMoniker": "GrpcServer\\Protos\\BidirectionEmployee.proto",
+              "ToolTip": "E:\\GrpcWithTlS\\GrpcServer\\Protos\\BidirectionEmployee.proto",
+              "RelativeToolTip": "GrpcServer\\Protos\\BidirectionEmployee.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-07-27T13:23:32.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClientStreamEmployee.proto",
+              "DocumentMoniker": "E:\\GrpcWithTlS\\GrpcServer\\Protos\\ClientStreamEmployee.proto",
+              "RelativeDocumentMoniker": "GrpcServer\\Protos\\ClientStreamEmployee.proto",
+              "ToolTip": "E:\\GrpcWithTlS\\GrpcServer\\Protos\\ClientStreamEmployee.proto",
+              "RelativeToolTip": "GrpcServer\\Protos\\ClientStreamEmployee.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-07-27T13:12:24.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ServerStreamEmployee.proto",
+              "DocumentMoniker": "E:\\GrpcWithTlS\\GrpcServer\\Protos\\ServerStreamEmployee.proto",
+              "RelativeDocumentMoniker": "GrpcServer\\Protos\\ServerStreamEmployee.proto",
+              "ToolTip": "E:\\GrpcWithTlS\\GrpcServer\\Protos\\ServerStreamEmployee.proto",
+              "RelativeToolTip": "GrpcServer\\Protos\\ServerStreamEmployee.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-07-27T13:10:19.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UnaryEmployee.proto",
+              "DocumentMoniker": "E:\\GrpcWithTlS\\GrpcServer\\Protos\\UnaryEmployee.proto",
+              "RelativeDocumentMoniker": "GrpcServer\\Protos\\UnaryEmployee.proto",
+              "ToolTip": "E:\\GrpcWithTlS\\GrpcServer\\Protos\\UnaryEmployee.proto",
+              "RelativeToolTip": "GrpcServer\\Protos\\UnaryEmployee.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-07-27T13:08:48.084Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -7,10 +7,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
+    <None Remove="Protos\BidirectionEmployee.proto" />
+    <None Remove="Protos\ClientStreamEmployee.proto" />
+    <None Remove="Protos\combined.proto" />
+    <None Remove="Protos\ServerStreamEmployee.proto" />
+    <None Remove="Protos\UnaryEmployee.proto" />
   </ItemGroup>
 
   <ItemGroup>
+    <Protobuf Include="Protos\BidirectionEmployee.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\ClientStreamEmployee.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\combined.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\ServerStreamEmployee.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\UnaryEmployee.proto" GrpcServices="Server" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="15.0.1" />
     <PackageReference Include="Grpc.AspNetCore" Version="2.57.0" />
   </ItemGroup>
 

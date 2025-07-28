@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/BidirectionEmployee.cs \
+obj\Debug\net8.0\Protos/BidirectionEmployeeGrpc.cs: Protos/BidirectionEmployee.proto

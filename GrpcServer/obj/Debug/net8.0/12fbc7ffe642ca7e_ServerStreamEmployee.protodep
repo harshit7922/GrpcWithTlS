@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/ServerStreamEmployee.cs \
+obj\Debug\net8.0\Protos/ServerStreamEmployeeGrpc.cs: Protos/ServerStreamEmployee.proto
